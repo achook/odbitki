@@ -1,16 +1,16 @@
 <script>
-	import router from "page"
-  
-  	// Include our Routes
-	import Home from './routes/Home.svelte'
+    import router from 'page'
 
-	let page
-	let params = {
-		name: "worlds"
-	}
+    // Include our Routes
+    import Home from './routes/Home.svelte'
 
-	router('/', () => page = Home)
-	router.start()
+    let page
+    const params = {
+        name: 'worlds'
+    }
+
+    router('/', () => { page = Home })
+    router.start()
 </script>
 
 <svelte:component this={page} params={params} />

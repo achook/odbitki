@@ -1,0 +1,18 @@
+{
+    "extends": "standard",
+    "rules": {
+        "indent": ["error", 4],
+        "no-multiple-empty-lines": ["error", {
+            "max": 1,
+            "maxBOF": 2,
+            "maxEOF": 0
+        }]
+    },
+    "plugins": ["svelte3"],
+    "overrides": [
+        {
+            "files": ["**/*.svelte"],
+            "processor": "svelte3/svelte3"
+        }
+    ]
+}
