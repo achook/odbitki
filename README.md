@@ -1,6 +1,6 @@
 # odbitki
 
-# WIP
+## WIP
 
 Frontend for my photoblog
 

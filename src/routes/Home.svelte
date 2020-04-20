@@ -3,8 +3,9 @@
 </script>
 
 <main>
-	<h1>Hello {params.name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<h1>My name is Karol</h1>
+	<h2>And here's some of my photos</h2>
+	<p>Some more info about me on </p><a href="https://kucza.xyz">kucza.xyz</a>
 </main>
 
 <style>
@@ -13,18 +14,5 @@
 		padding: 1em;
 		max-width: 240px;
 		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	@media (min-width: 640px) {
-		main {
-			max-width: none;
-		}
 	}
 </style>
